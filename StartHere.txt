@@ -1,12 +1,10 @@
 #Start Here file
 
 Project Overview
-
-This workflow enables the creation of a polyline FC with near analysis and xy management. Specifically, a point and ployline FC is leveraged as inputs for the script to execute.
-This is intended to be run locally and further data management is required.
+This workflow enables the creation of a polyline FC with near analysis and xy management. Specifically, a point and ployline FC is leveraged as inputs for the script to execute. This is intended to be run locally and further data management is required.
 
 Problem:
-Utility specific GIS data lacked wLateral lines from wMeter pits to the wMain lines. Rather than spending 200+ hours drawing 50,000+ lines. I built a py script as a starting place.
+Utility specific GIS data lacked wLateral lines from wMeter pits to the wMain lines.
 
 Solution:
 Automate the creation of new polylines (wLateral) from a point FC (wMeters) to a polyline FC (wMains). XY and Near Analysis do the heavy lifting as a starter for further editing and management. 
